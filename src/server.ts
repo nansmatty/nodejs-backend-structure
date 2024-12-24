@@ -8,7 +8,6 @@ const startServer = () => {
   try {
     app.listen(PORT, () => logger.info(`Listening on PORT ${PORT}`));
   } catch (err) {
-    // eslint-disable-next-line no-console
     console.error(err);
     process.exit(1);
   }
