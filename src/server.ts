@@ -6,7 +6,6 @@ const startServer = () => {
   const PORT = Config.PORT;
 
   try {
-     
     app.listen(PORT, () => logger.info(`Listening on PORT ${PORT}`));
   } catch (err) {
     // eslint-disable-next-line no-console
